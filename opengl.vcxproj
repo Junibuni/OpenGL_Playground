@@ -149,38 +149,15 @@
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Binaries\include\glm\common.hpp" />
-    <ClInclude Include="Binaries\include\glm\exponential.hpp" />
-    <ClInclude Include="Binaries\include\glm\ext.hpp" />
-    <ClInclude Include="Binaries\include\glm\fwd.hpp" />
-    <ClInclude Include="Binaries\include\glm\geometric.hpp" />
-    <ClInclude Include="Binaries\include\glm\glm.hpp" />
-    <ClInclude Include="Binaries\include\glm\integer.hpp" />
-    <ClInclude Include="Binaries\include\glm\mat2x2.hpp" />
-    <ClInclude Include="Binaries\include\glm\mat2x3.hpp" />
-    <ClInclude Include="Binaries\include\glm\mat2x4.hpp" />
-    <ClInclude Include="Binaries\include\glm\mat3x2.hpp" />
-    <ClInclude Include="Binaries\include\glm\mat3x3.hpp" />
-    <ClInclude Include="Binaries\include\glm\mat3x4.hpp" />
-    <ClInclude Include="Binaries\include\glm\mat4x2.hpp" />
-    <ClInclude Include="Binaries\include\glm\mat4x3.hpp" />
-    <ClInclude Include="Binaries\include\glm\mat4x4.hpp" />
-    <ClInclude Include="Binaries\include\glm\matrix.hpp" />
-    <ClInclude Include="Binaries\include\glm\packing.hpp" />
-    <ClInclude Include="Binaries\include\glm\trigonometric.hpp" />
-    <ClInclude Include="Binaries\include\glm\vec2.hpp" />
-    <ClInclude Include="Binaries\include\glm\vec3.hpp" />
-    <ClInclude Include="Binaries\include\glm\vec4.hpp" />
-    <ClInclude Include="Binaries\include\glm\vector_relational.hpp" />
     <ClInclude Include="Binaries\include\shader_s.h" />
-    <ClInclude Include="Binaries\include\stb_image.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\container.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="fragment.frag" />
-    <Text Include="shader.vs" />
+    <None Include="Binaries\resources\shaders\fragment.glsl" />
+    <None Include="Binaries\resources\shaders\vertexshader.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

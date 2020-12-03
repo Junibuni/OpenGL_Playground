@@ -23,79 +23,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Binaries\include\stb_image.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\common.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\exponential.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\ext.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\fwd.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\geometric.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\glm.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\integer.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\mat2x2.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\mat2x3.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\mat2x4.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\mat3x2.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\mat3x3.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\mat3x4.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\mat4x2.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\mat4x3.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\mat4x4.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\matrix.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\packing.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\trigonometric.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\vec2.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\vec3.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\vec4.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Binaries\include\glm\vector_relational.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Binaries\include\shader_s.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -105,11 +36,11 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="shader.vs">
+    <None Include="Binaries\resources\shaders\fragment.glsl">
       <Filter>리소스 파일</Filter>
-    </Text>
-    <Text Include="fragment.frag">
+    </None>
+    <None Include="Binaries\resources\shaders\vertexshader.glsl">
       <Filter>리소스 파일</Filter>
-    </Text>
+    </None>
   </ItemGroup>
 </Project>
