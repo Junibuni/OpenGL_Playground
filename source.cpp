@@ -135,10 +135,10 @@ int main()
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) //callback function, when size of window changes
 {
-	glViewport(0, 0, width, height); //(0,0) width, height
+    glViewport(0, 0, width, height); //(0,0) width, height
 }
 
 void processInput(GLFWwindow* window) //any key input?
 {
-	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) glfwSetWindowShouldClose(window, true); //esc input = glfwsetwindowshouldclose ==> true
+    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) glfwSetWindowShouldClose(window, true); //esc input = glfwsetwindowshouldclose ==> true
 }
